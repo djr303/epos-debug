@@ -1,0 +1,124 @@
+{
+  "version": "1.0",
+  "id": "4ff68706-689d-4098-8c00-d7ce8b60199f",
+  "type": "sale",
+  "chainId": "be551890-f66f-4243-82bd-55f7526e272d",
+  "status": "completed",
+  "barcode": "PÕ¬",
+  "creationAudit": {
+    "type": "till",
+    "deviceId": 15,
+    "staffId": 6,
+    "timestamp": "2014-06-01T17:55:15.699Z"
+  },
+  "companyGuid": "ûB¬¯",
+  "serviceType": "eat-in",
+  "taxMode": "inc",
+  "currency": {
+    "symbol": "(ºß",
+    "decimalPlaces": 2
+  },
+  "customer": null,
+  "items": [
+    {
+      "type": "product-item",
+      "id": "c3f405d1-b616-4d0d-84f1-bbf740d7a946",
+      "legacySaleItemId": 1,
+      "productId": 123,
+      "name": "A Product",
+      "quantity": 1,
+      "creationAudit": {
+        "type": "other",
+        "description": "+\u0012",
+        "timestamp": "2014-09-16T01:56:31.618Z",
+        "staffId": 16,
+        "deviceId": 17
+      },
+      "tax": {
+        "rates": [],
+        "amount": "0/2"
+      },
+      "discount": {
+        "type": "none",
+        "percentage": 0,
+        "amount": {
+          "inc": "0/",
+          "exc": "0/"
+        }
+      },
+      "totalPrice": {
+        "inc": "10/2",
+        "exc": "10/2"
+      },
+      "basePrice": {
+        "amount": {
+          "inc": "10/2",
+          "exc": "10/2"
+        },
+        "taxMode": "inc"
+      },
+      "modifiers": [],
+      "note": "test note",
+      "courseId": null
+    }
+  ],
+  "voidItems": [],
+  "payments": [
+    {
+      "paymentMethodId": 333,
+      "tipAdjustable": false,
+      "amount": "-8.74/2",
+      "creationAudit": {
+        "type": "other",
+        "description": "",
+        "timestamp": "2014-12-20T01:46:16.482Z",
+        "staffId": 12,
+        "deviceId": 7
+      },
+      "change": "0/"
+    }
+  ],
+  "basketDiscount": {
+    "type": "set-price",
+    "percentage": 187.4,
+    "amount": {
+      "inc": "18.74/2",
+      "exc": "18.74/2"
+    },
+    "newPrice": "-8.74/2",
+    "creationAudit": {
+      "type": "api",
+      "deviceId": 16,
+      "staffId": 18,
+      "timestamp": "2015-05-01T09:13:10.552Z"
+    },
+    "discountReasonId": -13.347599305212498
+  },
+  "container": null,
+  "total": {
+    "inc": "-8.74/2",
+    "exc": "-8.74/2"
+  },
+  "receiptSubtotal": {
+    "inc": "10/2",
+    "exc": "10/2"
+  },
+  "taxAmount": "0/2",
+  "totalQuantity": 1,
+  "amountPaid": "-8.74/2",
+  "amountOutstanding": "0/2",
+  "spendLimit": {
+    "current": null,
+    "changes": []
+  },
+  "serviceCharge": {
+    "setManually": false,
+    "enabled": false,
+    "amount": "0/",
+    "percentage": "0"
+  },
+  "ticketNumber": null,
+  "details": [],
+  "splitOf": null,
+  "numberOfSplitCovers": 0
+}
