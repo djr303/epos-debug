@@ -1,0 +1,687 @@
+{
+  "actual": 2857.909,
+  "expected": 2827.545,
+  "originalSale": {
+    "version": "1.0",
+    "id": "54e74532-c6c8-4e1a-aba7-4ebb40d7e964",
+    "type": "sale",
+    "chainId": "d90ec35b-f988-4c43-b317-395fb40a4120",
+    "status": "completed",
+    "barcode": "íÝ",
+    "creationAudit": {
+      "type": "other",
+      "description": "×",
+      "timestamp": "2015-03-28T05:12:44.093Z",
+      "staffId": 11,
+      "deviceId": 16
+    },
+    "companyGuid": "\u0011",
+    "serviceType": "delivery",
+    "taxMode": "exc",
+    "currency": {
+      "symbol": "B$Ü@",
+      "decimalPlaces": 3
+    },
+    "customer": null,
+    "items": [
+      {
+        "type": "product-item",
+        "id": "a5448c6e-a20d-477d-8938-3f7c559567d8",
+        "legacySaleItemId": 8286,
+        "productId": -11,
+        "name": "D",
+        "quantity": -4,
+        "creationAudit": {
+          "type": "till",
+          "deviceId": 13,
+          "staffId": 11,
+          "timestamp": "2015-03-04T04:55:03.057Z"
+        },
+        "tax": {
+          "rates": [
+            {
+              "id": -4,
+              "percentage": "123.80598038434982",
+              "priority": 0
+            },
+            {
+              "id": -17,
+              "percentage": "169.20778946951032",
+              "priority": 0
+            }
+          ],
+          "amount": "-1647.9498573396847601/4"
+        },
+        "discount": {
+          "type": "by-value",
+          "percentage": 23.87323222797492,
+          "amount": {
+            "inc": "-15.182121929454617209/3",
+            "exc": "-3.863/3"
+          },
+          "creationAudit": {
+            "type": "other",
+            "description": "ä",
+            "timestamp": "2015-01-10T17:16:42.525Z",
+            "staffId": 11,
+            "deviceId": 1
+          },
+          "discountReasonId": -2.158102924004197
+        },
+        "totalPrice": {
+          "inc": "-2898.0422766128059921/4",
+          "exc": "-1250.092419273121232/4"
+        },
+        "basePrice": {
+          "amount": {
+            "inc": "15.898687057197094/4",
+            "exc": "4.0453257052822671637/4"
+          },
+          "taxMode": "inc"
+        },
+        "modifiers": [
+          {
+            "id": "65646ff2-002c-4c29-9284-51fc635f93f3",
+            "productId": 12,
+            "name": "P8",
+            "modifiersGroupId": 11,
+            "perParentQuantity": 2,
+            "creationAudit": {
+              "type": "other",
+              "description": "",
+              "timestamp": "2015-02-18T03:18:01.285Z",
+              "staffId": 9,
+              "deviceId": 11
+            },
+            "taxRates": [],
+            "pricePerParent": {
+              "inc": "35.93061396852136/1",
+              "exc": "35.93061396852136/1"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "17.96530698426068/1",
+                "exc": "17.96530698426068/1"
+              },
+              "taxMode": "inc"
+            }
+          },
+          {
+            "id": "9d4d3154-4d1b-4501-a453-919392714533",
+            "productId": 4,
+            "name": "_¼",
+            "modifiersGroupId": 8,
+            "perParentQuantity": 16,
+            "creationAudit": {
+              "type": "other",
+              "description": "Ñ",
+              "timestamp": "2015-01-09T10:03:21.324Z",
+              "staffId": 11,
+              "deviceId": 18
+            },
+            "taxRates": [
+              {
+                "id": 12,
+                "percentage": "134.72884390503168",
+                "priority": -3
+              }
+            ],
+            "pricePerParent": {
+              "inc": "251.41055356992172136/4",
+              "exc": "107.1068000793457024/4"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "15.713159598120107585/4",
+                "exc": "6.6941750049591064/4"
+              },
+              "taxMode": "exc"
+            }
+          },
+          {
+            "id": "631c51be-3543-4b18-98c9-d7dcfa4be02d",
+            "productId": 14,
+            "name": "h",
+            "modifiersGroupId": 6,
+            "perParentQuantity": 8,
+            "creationAudit": {
+              "type": "api",
+              "deviceId": 12,
+              "staffId": 4,
+              "timestamp": "2014-07-29T18:51:29.229Z"
+            },
+            "taxRates": [
+              {
+                "id": -6,
+                "percentage": "13.036181312054396",
+                "priority": -2
+              }
+            ],
+            "pricePerParent": {
+              "inc": "151.36686593294144/0",
+              "exc": "133.91010221326309613/0"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "18.92085824161768/0",
+                "exc": "16.738762776657887017/0"
+              },
+              "taxMode": "inc"
+            }
+          },
+          {
+            "id": "bafb1e66-59ae-4e87-a4e6-0851db02903f",
+            "productId": 9,
+            "name": "ßÀ",
+            "modifiersGroupId": 8,
+            "perParentQuantity": 19,
+            "creationAudit": {
+              "type": "api",
+              "deviceId": 7,
+              "staffId": 0,
+              "timestamp": "2015-04-23T16:57:19.387Z"
+            },
+            "taxRates": [
+              {
+                "id": 20,
+                "percentage": "51.18781113997102",
+                "priority": -1
+              },
+              {
+                "id": -15,
+                "percentage": "110.03819517791271",
+                "priority": -1
+              },
+              {
+                "id": -14,
+                "percentage": "31.536295264959335",
+                "priority": 3
+              },
+              {
+                "id": -16,
+                "percentage": "145.12167619541287",
+                "priority": -2
+              }
+            ],
+            "pricePerParent": {
+              "inc": "273.699379106983537/4",
+              "exc": "32.496012851867882331/4"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "14.405230479314923/4",
+                "exc": "1.7103164658877832806/4"
+              },
+              "taxMode": "inc"
+            }
+          }
+        ],
+        "note": null,
+        "courseId": null
+      },
+      {
+        "type": "misc-item",
+        "id": "be22bd96-862b-4a63-b319-52f56505548a",
+        "legacySaleItemId": 2897,
+        "name": "°¨",
+        "creationAudit": {
+          "type": "other",
+          "description": "i",
+          "timestamp": "2014-08-23T01:37:10.201Z",
+          "staffId": 20,
+          "deviceId": 1
+        },
+        "miscProductId": 14,
+        "tax": {
+          "rates": [
+            {
+              "id": -13,
+              "percentage": "185.84983330219984",
+              "priority": 3
+            },
+            {
+              "id": -4,
+              "percentage": "19.796142913401127",
+              "priority": 2
+            }
+          ],
+          "amount": "42.830452478872137539/"
+        },
+        "totalPrice": {
+          "inc": "60.497078967662053539/",
+          "exc": "17.666626488789916/"
+        },
+        "taxGroupId": -17.62961408123374
+      },
+      {
+        "type": "product-item",
+        "id": "eec3c7af-643e-49cf-9289-2f80d2e01c86",
+        "legacySaleItemId": 1,
+        "productId": 123,
+        "name": "A Product",
+        "quantity": 1,
+        "creationAudit": {
+          "type": "api",
+          "deviceId": 18,
+          "staffId": 15,
+          "timestamp": "2014-11-10T13:52:45.342Z"
+        },
+        "tax": {
+          "rates": [],
+          "amount": "0/2"
+        },
+        "discount": {
+          "type": "none",
+          "percentage": 0,
+          "amount": {
+            "inc": "0/",
+            "exc": "0/"
+          }
+        },
+        "totalPrice": {
+          "inc": "10/2",
+          "exc": "10/2"
+        },
+        "basePrice": {
+          "amount": {
+            "inc": "10/2",
+            "exc": "10/2"
+          },
+          "taxMode": "inc"
+        },
+        "modifiers": [],
+        "note": "test note",
+        "courseId": null
+      }
+    ],
+    "voidItems": [],
+    "payments": [
+      {
+        "paymentMethodId": 333,
+        "tipAdjustable": false,
+        "amount": "-2857.909/4",
+        "creationAudit": {
+          "type": "till",
+          "deviceId": 10,
+          "staffId": 19,
+          "timestamp": "2014-06-11T07:10:44.601Z"
+        },
+        "change": "0/"
+      }
+    ],
+    "basketDiscount": {
+      "type": "none",
+      "percentage": 0,
+      "amount": {
+        "inc": "0/",
+        "exc": "0/"
+      }
+    },
+    "container": null,
+    "total": {
+      "inc": "-2827.545/4",
+      "exc": "-1222.426/4"
+    },
+    "receiptSubtotal": {
+      "inc": "-2827.5451976451439385/4",
+      "exc": "-1222.425792784331316/4"
+    },
+    "taxAmount": "-1605.119/4",
+    "totalQuantity": -2,
+    "amountPaid": "-2857.909/4",
+    "amountOutstanding": "30.364/4",
+    "spendLimit": {
+      "current": null,
+      "changes": []
+    },
+    "serviceCharge": {
+      "setManually": false,
+      "enabled": false,
+      "amount": "0/",
+      "percentage": "0"
+    },
+    "ticketNumber": null,
+    "details": [],
+    "splitOf": null,
+    "numberOfSplitCovers": 0,
+    "refundedSale": null
+  },
+  "refundedSale": {
+    "version": "1.0",
+    "id": "0f778467-b99a-4070-9593-2488910f2a1a",
+    "type": "sale",
+    "chainId": "f2bd0b2a-9495-493c-8cd8-c85d4fc19b17",
+    "status": "current",
+    "barcode": "ø",
+    "creationAudit": {
+      "type": "api",
+      "deviceId": 9,
+      "staffId": 5,
+      "timestamp": "2015-03-15T01:43:36.531Z"
+    },
+    "companyGuid": "\u0011",
+    "serviceType": "delivery",
+    "taxMode": "exc",
+    "currency": {
+      "symbol": "B$Ü@",
+      "decimalPlaces": 3
+    },
+    "customer": null,
+    "items": [
+      {
+        "type": "product-item",
+        "id": "05ed1659-2aa5-4931-bfb4-3c1b918050f8",
+        "legacySaleItemId": 8286,
+        "productId": -11,
+        "name": "D",
+        "quantity": 4,
+        "creationAudit": {
+          "type": "api",
+          "deviceId": 0,
+          "staffId": 6,
+          "timestamp": "2015-01-18T01:07:06.655Z"
+        },
+        "tax": {
+          "rates": [
+            {
+              "id": -4,
+              "percentage": "123.80598038434982",
+              "priority": 0
+            },
+            {
+              "id": -17,
+              "percentage": "169.20778946951032",
+              "priority": 0
+            }
+          ],
+          "amount": "1670.5881011985939946/4"
+        },
+        "discount": {
+          "type": "by-value",
+          "percentage": -23.87323222797492,
+          "amount": {
+            "inc": "-15.182121929454617209/3",
+            "exc": "-3.863/3"
+          },
+          "creationAudit": {
+            "type": "other",
+            "description": "ä",
+            "timestamp": "2015-01-10T17:16:42.525Z",
+            "staffId": 11,
+            "deviceId": 1
+          },
+          "discountReasonId": -2.158102924004197
+        },
+        "totalPrice": {
+          "inc": "2928.4065204717152266/4",
+          "exc": "1257.818419273121232/4"
+        },
+        "basePrice": {
+          "amount": {
+            "inc": "15.898687057197094/4",
+            "exc": "4.0453257052822671637/4"
+          },
+          "taxMode": "inc"
+        },
+        "modifiers": [
+          {
+            "id": "65646ff2-002c-4c29-9284-51fc635f93f3",
+            "productId": 12,
+            "name": "P8",
+            "modifiersGroupId": 11,
+            "perParentQuantity": 2,
+            "creationAudit": {
+              "type": "other",
+              "description": "¤ûj",
+              "timestamp": "2014-08-29T03:27:44.397Z",
+              "staffId": 14,
+              "deviceId": 11
+            },
+            "taxRates": [],
+            "pricePerParent": {
+              "inc": "35.93061396852136/1",
+              "exc": "35.93061396852136/1"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "17.96530698426068/1",
+                "exc": "17.96530698426068/1"
+              },
+              "taxMode": "inc"
+            }
+          },
+          {
+            "id": "9d4d3154-4d1b-4501-a453-919392714533",
+            "productId": 4,
+            "name": "_¼",
+            "modifiersGroupId": 8,
+            "perParentQuantity": 16,
+            "creationAudit": {
+              "type": "till",
+              "deviceId": 10,
+              "staffId": 18,
+              "timestamp": "2014-11-12T18:34:55.709Z"
+            },
+            "taxRates": [
+              {
+                "id": 12,
+                "percentage": "134.72884390503168",
+                "priority": -3
+              }
+            ],
+            "pricePerParent": {
+              "inc": "251.41055356992172136/4",
+              "exc": "107.1068000793457024/4"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "15.713159598120107585/4",
+                "exc": "6.6941750049591064/4"
+              },
+              "taxMode": "exc"
+            }
+          },
+          {
+            "id": "631c51be-3543-4b18-98c9-d7dcfa4be02d",
+            "productId": 14,
+            "name": "h",
+            "modifiersGroupId": 6,
+            "perParentQuantity": 8,
+            "creationAudit": {
+              "type": "other",
+              "description": ":",
+              "timestamp": "2015-03-20T13:46:55.399Z",
+              "staffId": 14,
+              "deviceId": 14
+            },
+            "taxRates": [
+              {
+                "id": -6,
+                "percentage": "13.036181312054396",
+                "priority": -2
+              }
+            ],
+            "pricePerParent": {
+              "inc": "151.36686593294144/0",
+              "exc": "133.91010221326309613/0"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "18.92085824161768/0",
+                "exc": "16.738762776657887017/0"
+              },
+              "taxMode": "inc"
+            }
+          },
+          {
+            "id": "bafb1e66-59ae-4e87-a4e6-0851db02903f",
+            "productId": 9,
+            "name": "ßÀ",
+            "modifiersGroupId": 8,
+            "perParentQuantity": 19,
+            "creationAudit": {
+              "type": "api",
+              "deviceId": 4,
+              "staffId": 5,
+              "timestamp": "2015-04-04T09:52:58.685Z"
+            },
+            "taxRates": [
+              {
+                "id": 20,
+                "percentage": "51.18781113997102",
+                "priority": -1
+              },
+              {
+                "id": -15,
+                "percentage": "110.03819517791271",
+                "priority": -1
+              },
+              {
+                "id": -14,
+                "percentage": "31.536295264959335",
+                "priority": 3
+              },
+              {
+                "id": -16,
+                "percentage": "145.12167619541287",
+                "priority": -2
+              }
+            ],
+            "pricePerParent": {
+              "inc": "273.699379106983537/4",
+              "exc": "32.496012851867882331/4"
+            },
+            "basePrice": {
+              "amount": {
+                "inc": "14.405230479314923/4",
+                "exc": "1.7103164658877832806/4"
+              },
+              "taxMode": "inc"
+            }
+          }
+        ],
+        "note": null,
+        "courseId": null
+      },
+      {
+        "type": "misc-item",
+        "id": "355997fa-2a82-4225-88a7-9ef4832023a6",
+        "legacySaleItemId": 2897,
+        "name": "°¨",
+        "creationAudit": {
+          "type": "api",
+          "deviceId": 8,
+          "staffId": 14,
+          "timestamp": "2014-12-27T07:44:53.419Z"
+        },
+        "miscProductId": 14,
+        "tax": {
+          "rates": [
+            {
+              "id": -13,
+              "percentage": "185.84983330219984",
+              "priority": 3
+            },
+            {
+              "id": -4,
+              "percentage": "19.796142913401127",
+              "priority": 2
+            }
+          ],
+          "amount": "-42.830452478872137539/"
+        },
+        "totalPrice": {
+          "inc": "-60.497078967662053539/",
+          "exc": "-17.666626488789916/"
+        },
+        "taxGroupId": -17.62961408123374
+      },
+      {
+        "type": "product-item",
+        "id": "8862845a-8cd4-49d4-857e-9c154874e222",
+        "legacySaleItemId": 1,
+        "productId": 123,
+        "name": "A Product",
+        "quantity": -1,
+        "creationAudit": {
+          "type": "till",
+          "deviceId": 9,
+          "staffId": 5,
+          "timestamp": "2014-06-11T08:00:46.351Z"
+        },
+        "tax": {
+          "rates": [],
+          "amount": "0/2"
+        },
+        "discount": {
+          "type": "none",
+          "percentage": 0,
+          "amount": {
+            "inc": "0/",
+            "exc": "0/"
+          }
+        },
+        "totalPrice": {
+          "inc": "-10/2",
+          "exc": "-10/2"
+        },
+        "basePrice": {
+          "amount": {
+            "inc": "10/2",
+            "exc": "10/2"
+          },
+          "taxMode": "inc"
+        },
+        "modifiers": [],
+        "note": "test note",
+        "courseId": null
+      }
+    ],
+    "voidItems": [],
+    "payments": [],
+    "basketDiscount": {
+      "type": "none",
+      "percentage": 0,
+      "amount": {
+        "inc": "0/",
+        "exc": "0/"
+      }
+    },
+    "container": null,
+    "total": {
+      "inc": "2857.909/4",
+      "exc": "1230.152/4"
+    },
+    "receiptSubtotal": {
+      "inc": "2857.909441504053173/4",
+      "exc": "1230.151792784331316/4"
+    },
+    "taxAmount": "1627.757/4",
+    "totalQuantity": 4,
+    "amountPaid": "0/",
+    "amountOutstanding": "2857.909/4",
+    "spendLimit": {
+      "current": null,
+      "changes": []
+    },
+    "serviceCharge": {
+      "setManually": false,
+      "enabled": false,
+      "amount": "0/",
+      "percentage": "0"
+    },
+    "ticketNumber": null,
+    "details": [],
+    "splitOf": null,
+    "numberOfSplitCovers": 0,
+    "refundedSale": {
+      "chainId": "d90ec35b-f988-4c43-b317-395fb40a4120",
+      "barcode": "íÝ",
+      "saleItemsId": [
+        "a5448c6e-a20d-477d-8938-3f7c559567d8",
+        "be22bd96-862b-4a63-b319-52f56505548a",
+        "eec3c7af-643e-49cf-9289-2f80d2e01c86"
+      ]
+    }
+  }
+}
